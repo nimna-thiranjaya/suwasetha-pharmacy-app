@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555A4EFB2A3C279900C6CED8 /* OrderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 555A4EF92A3C279900C6CED8 /* OrderModel.xcdatamodeld */; };
+		555A4F012A3C2E7A00C6CED8 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F002A3C2E7A00C6CED8 /* OrderController.swift */; };
+		555A4F082A3C312100C6CED8 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F062A3C312100C6CED8 /* Order+CoreDataClass.swift */; };
+		555A4F092A3C312100C6CED8 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F072A3C312100C6CED8 /* Order+CoreDataProperties.swift */; };
+		555A4F0B2A3C480E00C6CED8 /* OrderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F0A2A3C480E00C6CED8 /* OrderCard.swift */; };
+		555A4F0E2A3C696800C6CED8 /* ShowOder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F0D2A3C696800C6CED8 /* ShowOder.swift */; };
+		555A4F112A3C897400C6CED8 /* UpdateOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A4F102A3C897400C6CED8 /* UpdateOrder.swift */; };
+		555A7B372A3B453400C32898 /* ParmaciesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A7B362A3B453400C32898 /* ParmaciesPage.swift */; };
+		555E8F1A2A3A02E5007DB0B0 /* Suwasetha_PharmacyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F192A3A02E5007DB0B0 /* Suwasetha_PharmacyApp.swift */; };
+		555E8F1C2A3A02E5007DB0B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F1B2A3A02E5007DB0B0 /* ContentView.swift */; };
+		555E8F1E2A3A02E6007DB0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555E8F1D2A3A02E6007DB0B0 /* Assets.xcassets */; };
+		555E8F212A3A02E6007DB0B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555E8F202A3A02E6007DB0B0 /* Preview Assets.xcassets */; };
+		555E8F312A3A069D007DB0B0 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F302A3A069D007DB0B0 /* LandingPage.swift */; };
+		555E8F342A3A1963007DB0B0 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F332A3A1963007DB0B0 /* CustomColors.swift */; };
+		555E8F372A3A1D07007DB0B0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F362A3A1D07007DB0B0 /* HomePage.swift */; };
+		555E8F392A3A2A38007DB0B0 /* ScrollViewBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F382A3A2A38007DB0B0 /* ScrollViewBtn.swift */; };
+		555E8F3C2A3A3D1D007DB0B0 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F3B2A3A3D1D007DB0B0 /* ProfilePage.swift */; };
+		555E8F402A3A3E08007DB0B0 /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F3F2A3A3E08007DB0B0 /* OrderPage.swift */; };
+		555E8F452A3A4571007DB0B0 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F442A3A4571007DB0B0 /* Medicine.swift */; };
+		555E8F472A3A4C1B007DB0B0 /* MedicineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E8F462A3A4C1B007DB0B0 /* MedicineCard.swift */; };
+		55761DA62A3B086E0053BBDC /* AddOrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55761DA52A3B086E0053BBDC /* AddOrderPage.swift */; };
+		55F6FC4A2A3DFE75008E84DC /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC492A3DFE75008E84DC /* Action.swift */; };
+		55F6FC4C2A3DFEC3008E84DC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC4B2A3DFEC3008E84DC /* Business.swift */; };
+		55F6FC4E2A3DFEE1008E84DC /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC4D2A3DFEE1008E84DC /* BusinessView.swift */; };
+		55F6FC502A3DFF03008E84DC /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC4F2A3DFF03008E84DC /* MapController.swift */; };
+		55F6FC522A3DFF28008E84DC /* MapPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC512A3DFF28008E84DC /* MapPresentView.swift */; };
+		55F6FC542A3DFF49008E84DC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6FC532A3DFF49008E84DC /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555A4EFA2A3C279900C6CED8 /* OrderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrderModel.xcdatamodel; sourceTree = "<group>"; };
+		555A4F002A3C2E7A00C6CED8 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		555A4F062A3C312100C6CED8 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		555A4F072A3C312100C6CED8 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		555A4F0A2A3C480E00C6CED8 /* OrderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCard.swift; sourceTree = "<group>"; };
+		555A4F0D2A3C696800C6CED8 /* ShowOder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowOder.swift; sourceTree = "<group>"; };
+		555A4F102A3C897400C6CED8 /* UpdateOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateOrder.swift; sourceTree = "<group>"; };
+		555A7B362A3B453400C32898 /* ParmaciesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParmaciesPage.swift; sourceTree = "<group>"; };
+		555E8F162A3A02E4007DB0B0 /* Suwasetha-Pharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Suwasetha-Pharmacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555E8F192A3A02E5007DB0B0 /* Suwasetha_PharmacyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suwasetha_PharmacyApp.swift; sourceTree = "<group>"; };
+		555E8F1B2A3A02E5007DB0B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		555E8F1D2A3A02E6007DB0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		555E8F202A3A02E6007DB0B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		555E8F302A3A069D007DB0B0 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		555E8F332A3A1963007DB0B0 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		555E8F362A3A1D07007DB0B0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		555E8F382A3A2A38007DB0B0 /* ScrollViewBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBtn.swift; sourceTree = "<group>"; };
+		555E8F3B2A3A3D1D007DB0B0 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		555E8F3F2A3A3E08007DB0B0 /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
+		555E8F442A3A4571007DB0B0 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		555E8F462A3A4C1B007DB0B0 /* MedicineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCard.swift; sourceTree = "<group>"; };
+		55761DA52A3B086E0053BBDC /* AddOrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderPage.swift; sourceTree = "<group>"; };
+		55F6FC492A3DFE75008E84DC /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		55F6FC4B2A3DFEC3008E84DC /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		55F6FC4D2A3DFEE1008E84DC /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
+		55F6FC4F2A3DFF03008E84DC /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		55F6FC512A3DFF28008E84DC /* MapPresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresentView.swift; sourceTree = "<group>"; };
+		55F6FC532A3DFF49008E84DC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555E8F132A3A02E4007DB0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555A7B352A3B451100C32898 /* Pharmarcies */ = {
+			isa = PBXGroup;
+			children = (
+				555A7B382A3B4F5C00C32898 /* Map */,
+				555A7B362A3B453400C32898 /* ParmaciesPage.swift */,
+			);
+			path = Pharmarcies;
+			sourceTree = "<group>";
+		};
+		555A7B382A3B4F5C00C32898 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				55F6FC492A3DFE75008E84DC /* Action.swift */,
+				55F6FC4B2A3DFEC3008E84DC /* Business.swift */,
+				55F6FC4D2A3DFEE1008E84DC /* BusinessView.swift */,
+				55F6FC4F2A3DFF03008E84DC /* MapController.swift */,
+				55F6FC512A3DFF28008E84DC /* MapPresentView.swift */,
+				55F6FC532A3DFF49008E84DC /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		555E8F0D2A3A02E4007DB0B0 = {
+			isa = PBXGroup;
+			children = (
+				555A4F062A3C312100C6CED8 /* Order+CoreDataClass.swift */,
+				555A4F072A3C312100C6CED8 /* Order+CoreDataProperties.swift */,
+				555E8F182A3A02E4007DB0B0 /* Suwasetha-Pharmacy */,
+				555E8F172A3A02E4007DB0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		555E8F172A3A02E4007DB0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F162A3A02E4007DB0B0 /* Suwasetha-Pharmacy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555E8F182A3A02E4007DB0B0 /* Suwasetha-Pharmacy */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F322A3A1947007DB0B0 /* Helpers */,
+				555E8F2B2A3A0371007DB0B0 /* Views */,
+				555E8F2A2A3A0363007DB0B0 /* Components */,
+				555E8F292A3A034E007DB0B0 /* Controllers */,
+				555E8F282A3A0343007DB0B0 /* Models */,
+				555E8F1B2A3A02E5007DB0B0 /* ContentView.swift */,
+				555E8F1D2A3A02E6007DB0B0 /* Assets.xcassets */,
+				555E8F1F2A3A02E6007DB0B0 /* Preview Content */,
+			);
+			path = "Suwasetha-Pharmacy";
+			sourceTree = "<group>";
+		};
+		555E8F1F2A3A02E6007DB0B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F192A3A02E5007DB0B0 /* Suwasetha_PharmacyApp.swift */,
+				555E8F202A3A02E6007DB0B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		555E8F282A3A0343007DB0B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				555A4EF92A3C279900C6CED8 /* OrderModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		555E8F292A3A034E007DB0B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				555A4F002A3C2E7A00C6CED8 /* OrderController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		555E8F2A2A3A0363007DB0B0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F382A3A2A38007DB0B0 /* ScrollViewBtn.swift */,
+				555E8F462A3A4C1B007DB0B0 /* MedicineCard.swift */,
+				555A4F0A2A3C480E00C6CED8 /* OrderCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		555E8F2B2A3A0371007DB0B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				555A7B352A3B451100C32898 /* Pharmarcies */,
+				555E8F3D2A3A3DD8007DB0B0 /* Order */,
+				555E8F3A2A3A3D08007DB0B0 /* Profile */,
+				555E8F352A3A1CF2007DB0B0 /* Home */,
+				555E8F2D2A3A063E007DB0B0 /* LandingPage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		555E8F2D2A3A063E007DB0B0 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F302A3A069D007DB0B0 /* LandingPage.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		555E8F322A3A1947007DB0B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F332A3A1963007DB0B0 /* CustomColors.swift */,
+				555E8F442A3A4571007DB0B0 /* Medicine.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		555E8F352A3A1CF2007DB0B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F362A3A1D07007DB0B0 /* HomePage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		555E8F3A2A3A3D08007DB0B0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				555E8F3B2A3A3D1D007DB0B0 /* ProfilePage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		555E8F3D2A3A3DD8007DB0B0 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				55761DA52A3B086E0053BBDC /* AddOrderPage.swift */,
+				555A4F102A3C897400C6CED8 /* UpdateOrder.swift */,
+				555A4F0D2A3C696800C6CED8 /* ShowOder.swift */,
+				555E8F3F2A3A3E08007DB0B0 /* OrderPage.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555E8F152A3A02E4007DB0B0 /* Suwasetha-Pharmacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555E8F242A3A02E6007DB0B0 /* Build configuration list for PBXNativeTarget "Suwasetha-Pharmacy" */;
+			buildPhases = (
+				555E8F122A3A02E4007DB0B0 /* Sources */,
+				555E8F132A3A02E4007DB0B0 /* Frameworks */,
+				555E8F142A3A02E4007DB0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suwasetha-Pharmacy";
+			productName = "Suwasetha-Pharmacy";
+			productReference = 555E8F162A3A02E4007DB0B0 /* Suwasetha-Pharmacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555E8F0E2A3A02E4007DB0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					555E8F152A3A02E4007DB0B0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 555E8F112A3A02E4007DB0B0 /* Build configuration list for PBXProject "Suwasetha-Pharmacy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555E8F0D2A3A02E4007DB0B0;
+			productRefGroup = 555E8F172A3A02E4007DB0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555E8F152A3A02E4007DB0B0 /* Suwasetha-Pharmacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555E8F142A3A02E4007DB0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555E8F212A3A02E6007DB0B0 /* Preview Assets.xcassets in Resources */,
+				555E8F1E2A3A02E6007DB0B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555E8F122A3A02E4007DB0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555A4EFB2A3C279900C6CED8 /* OrderModel.xcdatamodeld in Sources */,
+				555A7B372A3B453400C32898 /* ParmaciesPage.swift in Sources */,
+				55F6FC4C2A3DFEC3008E84DC /* Business.swift in Sources */,
+				555E8F372A3A1D07007DB0B0 /* HomePage.swift in Sources */,
+				55F6FC522A3DFF28008E84DC /* MapPresentView.swift in Sources */,
+				555E8F1C2A3A02E5007DB0B0 /* ContentView.swift in Sources */,
+				555E8F392A3A2A38007DB0B0 /* ScrollViewBtn.swift in Sources */,
+				555A4F112A3C897400C6CED8 /* UpdateOrder.swift in Sources */,
+				55761DA62A3B086E0053BBDC /* AddOrderPage.swift in Sources */,
+				555E8F402A3A3E08007DB0B0 /* OrderPage.swift in Sources */,
+				555E8F3C2A3A3D1D007DB0B0 /* ProfilePage.swift in Sources */,
+				555E8F1A2A3A02E5007DB0B0 /* Suwasetha_PharmacyApp.swift in Sources */,
+				55F6FC542A3DFF49008E84DC /* MapView.swift in Sources */,
+				555A4F012A3C2E7A00C6CED8 /* OrderController.swift in Sources */,
+				555E8F472A3A4C1B007DB0B0 /* MedicineCard.swift in Sources */,
+				555A4F082A3C312100C6CED8 /* Order+CoreDataClass.swift in Sources */,
+				55F6FC4A2A3DFE75008E84DC /* Action.swift in Sources */,
+				555A4F0B2A3C480E00C6CED8 /* OrderCard.swift in Sources */,
+				555E8F452A3A4571007DB0B0 /* Medicine.swift in Sources */,
+				555E8F342A3A1963007DB0B0 /* CustomColors.swift in Sources */,
+				55F6FC4E2A3DFEE1008E84DC /* BusinessView.swift in Sources */,
+				555A4F0E2A3C696800C6CED8 /* ShowOder.swift in Sources */,
+				555A4F092A3C312100C6CED8 /* Order+CoreDataProperties.swift in Sources */,
+				55F6FC502A3DFF03008E84DC /* MapController.swift in Sources */,
+				555E8F312A3A069D007DB0B0 /* LandingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		555E8F222A3A02E6007DB0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		555E8F232A3A02E6007DB0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555E8F252A3A02E6007DB0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Suwasetha-Pharmacy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimna.Suwasetha-Pharmacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555E8F262A3A02E6007DB0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Suwasetha-Pharmacy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimna.Suwasetha-Pharmacy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555E8F112A3A02E4007DB0B0 /* Build configuration list for PBXProject "Suwasetha-Pharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555E8F222A3A02E6007DB0B0 /* Debug */,
+				555E8F232A3A02E6007DB0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555E8F242A3A02E6007DB0B0 /* Build configuration list for PBXNativeTarget "Suwasetha-Pharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555E8F252A3A02E6007DB0B0 /* Debug */,
+				555E8F262A3A02E6007DB0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		555A4EF92A3C279900C6CED8 /* OrderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				555A4EFA2A3C279900C6CED8 /* OrderModel.xcdatamodel */,
+			);
+			currentVersion = 555A4EFA2A3C279900C6CED8 /* OrderModel.xcdatamodel */;
+			path = OrderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 555E8F0E2A3A02E4007DB0B0 /* Project object */;
+}
